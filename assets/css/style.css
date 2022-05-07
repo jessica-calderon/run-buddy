@@ -301,7 +301,9 @@
   .step:last-child {
     border-bottom: none;
   }
-  
+  .step:not(:last-child) {
+      border-bottom: 1px solid var(--tertiary-color)
+  }
   .step h3 {
     color: var(--secondary-color);
     font-size: 46px;
